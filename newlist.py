@@ -5,3 +5,12 @@ a.append(10)
 print(a)
 a.pop()
 print(a)
+#operation
+
+a.append(5)
+print(a.index(6))
+a.sort()
+print(max(a))
+print(min(a))
+a.reverse()
+print(a)
