@@ -12,3 +12,8 @@ print("---------------------------String Addition-------------------------------
 string=input("Enter the String of Minimum of 3 character: ")
 
 print(string+"ing")
+
+# output :
+---------------------------String Addition---------------------------------
+Enter the String of Minimum of 3 character: blow
+blowing

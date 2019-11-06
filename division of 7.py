@@ -24,6 +24,10 @@ else:
     print("The Number is not the Multiple of 5")
     
     
-
+# Output
+Enter the number between 1500 and 2700 : 1650
+--------------------------------------------------------
+Number is not divisible by 7
+The number is Multiple of 5
 
 
