@@ -15,3 +15,7 @@ print(a)
 b=[1,2,3,4]
 c=a+b
 print(c)
+
+c=[2,5,6,7,9]
+print(max(c)) # IT will find the largest value from the List
+print(min(c)) # IT will find the Lowest value from the List
