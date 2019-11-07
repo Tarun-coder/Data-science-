@@ -6,3 +6,8 @@ print("----------------------Count letter and number----------------------------
 
 print("The number of Letter is :",len(character))
 print("The number of Digits is :",len(digit))
+Enter the character : hello
+Enter the Digits : 1234
+----------------------Count letter and number-----------------------------------
+The number of Letter is : 5
+The number of Digits is : 4
