@@ -2,6 +2,10 @@
 # The function accepts the number as an argument.
 number=input("Enter the Number : ")
 number=int(number)
+if number<0:
+    print(" oops!! Invalid Number ... Hint:Enter the Non-negative Number")
+    exit()
+
 
 def fac(number):
     factorial=1
