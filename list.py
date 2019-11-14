@@ -5,3 +5,9 @@ print(a)
 a.insert(3,200)
 print(a)
 
+li =[3,45,6]
+li.insert(0,1)
+print(li)
+
+li[0]=5
+print(li)
