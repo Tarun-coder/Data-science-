@@ -1,17 +1,14 @@
-size=int(input("Enter the size of the Sets :  "))
+# Write a Python class to convert a roman numeral to an integer.
 
-newset=set()
-for i in range(size):
-    number=int(input("Enter the Number: "))
-    newset.add(number)
-    print("The sets obtained is :",newset)  
-    c=len(newset)
-    print(c)
+integer={1000:"M",500:"D",1:"I",100:"C",50:"L",10:"X",5:"V"}
 
-roman={"M":1000,"D":500,"C":100,"L":50,"I":1,"V":5,"X":10}
+num=int(input("Enter the Number to find Roman Form : "))
 
+if num<0 and num:
+    print("oops!...Invalid Number")
+else:
+    print("The Roman Form of {} will be Displayed below ".format(num))    
 
-
-
-
-
+if num in integer.keys():
+    print("The Roman form of Number {} is : {} ".format(num,integer[num]))
+    
