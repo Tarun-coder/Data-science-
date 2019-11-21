@@ -18,4 +18,4 @@ print("Table of Number",number_1,"is",table_2)
 
 for i in range(10):
     new=table[i]+table_2[i]
-    print("14 x ",i+1,"=",new)
+    print("14 x",i+1,"=",new)
