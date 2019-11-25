@@ -9,8 +9,10 @@ def calculator(numb1,numb2,operation):
     elif operation=="mul":
         print("Multiplication is:",numb1*numb2)
     elif operation=="div":
-        print("Division is:",numb1//numb2)
+        print("Division is:",numb1/numb2)
     else:
         print("Subtraction is:",numb1-numb2)
 
-calculator(numb1,numb2,operation)                
+calculator(numb1,numb2,operation)      
+
+
