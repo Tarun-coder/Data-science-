@@ -1,5 +1,6 @@
 import random
 while True:
+    exit()
     number=int(input("Enter the Number: "))
 
     number_2=random.randint(1,10)
