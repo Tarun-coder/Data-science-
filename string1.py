@@ -32,4 +32,14 @@ name=input("Enter the Name: ")
 for i in name:
     if i.isdigit():
         name=name.replace(i,"",1)
-print(name)    
+print(name)  
+
+# Write a program to make a new string with all the consonents deleted from the string "Hello, have a good day".
+s="Hello, have a good day "
+v="aeiou"
+for i in s:
+    if i not in v:
+        s=s.replace(i,"",1)
+print(s)        
+        
+
