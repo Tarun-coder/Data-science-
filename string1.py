@@ -42,4 +42,3 @@ for i in s:
         s=s.replace(i,"",1)
 print(s)        
         
-
