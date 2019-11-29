@@ -11,22 +11,14 @@ def Perfectno(number):
      
         if number%i==0:
             print("The divisor of number",number,"is:",i)
-            sum=sum+i
             li.append(i)
-    print(sum)
-    if sum==number and (sum+number)/2==0:
-        print("It is Perfect number")
-    else:
-        print("It is not Perfect number")    
-
-
     print(li)
     add=0
     for i in li:
         add=add+i
     print("The sum is:",add)
     if add==number and (add+number)/2==number:
-        print("The number is Perfect Number",number)
+        print("The number ",number,"is Perfect Number")
     else:
         print("The Number",number,"is not Perfect Number")        
 
