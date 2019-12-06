@@ -48,8 +48,5 @@ com2=Company("wipro",emp)
 com2.company_info()
 print(id(com2))
 
+print(chr(90))
 
-
-
-
-        
