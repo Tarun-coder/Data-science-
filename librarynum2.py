@@ -26,3 +26,27 @@ print(m)
 # matrix operation
 print(m.transpose())
 
+c=np.arange(9)
+print(c.ndim)
+c.shape=(3,3)
+print(c)
+print("----------------------convert 1d to 3d array----------")
+
+c=c.reshape(3,3)
+print(c)
+
+print("-------------array slicing--------------------")
+# we are having 3X3 array now if we want to print all the last element of the each row
+print("all the last element from the each row is: ",c[0: ,2])
+# to print diagonal element of the array
+print("diagonal element:",c.diagonal())
+# number of element in array , shape number of rows and coloumn.
+print(c.size,c.shape)
+# to find the sum of all element in array.
+print(np.sum(c))
+# To find the sum of the rows we use axis=1 and for sum of coloumn we use axis=0
+print(c.sum(axis=0)) # it print sum of element of each coloumn
+print(c.sum(axis=1)) # It print sum of Element of Each Rows
+
+d=np.array([(c.sum(axis=0)),(c.sum(axis=1))])
+print(d.shape)
