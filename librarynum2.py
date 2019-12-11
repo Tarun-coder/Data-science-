@@ -45,8 +45,9 @@ print(c.size,c.shape)
 # to find the sum of all element in array.
 print(np.sum(c))
 # To find the sum of the rows we use axis=1 and for sum of coloumn we use axis=0
-print(c.sum(axis=0)) # it print sum of element of each coloumn
-print(c.sum(axis=1)) # It print sum of Element of Each Rows
+print(c.sum(axis=0)) # it print sum of all element of each coloumn
+print(c.sum(axis=1)) # It print sum of all Element of Each Rows
 
 d=np.array([(c.sum(axis=0)),(c.sum(axis=1))])
 print(d.shape)
+print("The Sum wiill be:",np.sum(d),d.sum())
