@@ -10,4 +10,5 @@ print("The total list size is:",b.__sizeof__())
 c=full((2,2),-1,dtype="float")
 print(c.mean())
 
-
+g=range(1,5,1)
+print(type(type))
